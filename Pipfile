@@ -1,0 +1,24 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+autopep8 = "*"
+
+[packages]
+asgiref = "==3.2.7"
+certifi = "==2020.4.5.1"
+chardet = "==3.0.4"
+idna = "==2.9"
+pytz = "==2019.3"
+requests = "*"
+sqlparse = "==0.3.1"
+urllib3 = "==1.25.8"
+Django = "==3.0.5"
+django-star-rating = "*"
+django-crispy-forms = "*"
+
+[requires]
+python_version = "3.8"
